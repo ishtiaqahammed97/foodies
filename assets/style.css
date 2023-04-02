@@ -1,0 +1,484 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+h2 {
+    font-family: 'Inter', sans-serif;
+}
+
+
+/* header part */
+
+.full-bg {
+    background: #F3FCF7;
+    padding: 35px 0 20px 0;
+}
+
+.logo {
+    max-width: 120px;
+}
+
+.header-nav .navbar-expand-lg .navbar-collapse {
+    justify-content: right;
+}
+
+.header-nav nav ul li a {
+    color: #1D1D1F;
+}
+
+.header-nav nav ul li a:hover {
+    color:#06C167;
+}
+
+/* banner part */
+
+.banner-section {
+    background: #F3FCF7;
+}
+
+.banner-details {
+    margin-top: 52px;
+    margin-bottom: 25px;
+}
+
+.banner-details p {
+    max-width: 530px;
+    height: 45px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.banner-img img {
+    max-width: 468px;
+    height: 634px;
+}
+
+.brand-logo img {
+    max-width: 570px;
+    height: 35px;
+    margin-top: 154px;
+}
+
+/* Features part */
+.features {
+    border-top: 1px solid #c4c2c2;
+    border-bottom: 1px solid #c4c2c2;
+    padding: 45px 0 45px 0;
+    margin-top: 110px;
+    margin-bottom: 65px;
+}
+
+.features img {
+    height: 70px;
+    max-width: 70px;
+}
+
+.shipping-details {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    margin-top: 7px;
+    line-height: 0.4;
+    margin-left: 22px;
+    margin-top: 18px;
+}
+
+.shipping-details p {
+    font-size: 18px;
+    line-height: 21px
+}
+
+.shipping-details span {
+    font: size 14px;
+    line-height: 16px;
+}
+
+/* our benefit */
+
+.our-benefit {
+    margin-top: 65px;
+    padding-bottom: 91.5px;
+}
+
+.benefit-img {
+    background-color: #F3FAFB;
+    max-width: 540px;
+    padding: 0 48px 95px 48px;
+    height: 608px;
+}
+.benefit-img img{
+    max-width: 455px;
+    height: 513px;
+}
+
+.benefit-details {
+    margin-top: 103px;
+}
+
+.benefit-details h2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 73px;
+}
+
+.benefit-details h6 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.check-items {
+    margin-top: 67px;
+}
+
+.check-items p {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+.benefit-details img {
+    height: 19px;
+    max-width: 25px;
+    margin-right: 22px;
+}
+
+/* Our stars part */
+
+.our-stars {
+    margin: 91.5px 135px 98.5px 135px;
+}
+
+.stars-titles h2{
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 73px;
+    max-width: 570px;
+}
+
+.stars {
+    column-gap: 84px;
+}
+
+.stars h1 {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    color: #06C167;
+}
+
+.stars p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #1d1d1f;
+}
+
+.promo-btn {
+    margin-top: 51px;
+}
+
+.stars-img {
+    max-width: 541px;
+    height: 608px;
+    background-color: #F3FAFB;
+    padding: 0 0 95px 96px;
+}
+
+.stars-img img {
+    max-width: 445px;
+    height: 513px;
+}
+
+/* features part - food variety */
+
+.features-details {
+    max-width: 1170px;
+    margin: 98.5px 20px 96px 37px;
+    /* height: 766px; */
+}
+
+.features-pics {
+    display: grid;
+    grid-template-columns: auto auto auto auto; 
+    grid-column-gap: 2px;
+}
+
+.features-title h6{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+.features-title h2 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 73px;
+}
+
+.variety-img1 {
+    background-image: url(./imgages/varieties-food-1.png);
+    max-width: 292.5px;
+    height: 292.5px;
+}
+
+.veggies-forever {
+    background-color: #F3FCF7;
+    max-width: 292.5px;
+    height: 292.5px;
+}
+
+.veggies-forever:hover {
+    background-color: #9bd3b4;
+    transition: all;
+    transition-duration: 0.7s;
+}
+
+.veggies-forever h2{
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 39px;
+    padding: 37px 28px 0 28px;
+}
+
+.veggies-forever h6 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    padding: 25px 45px 38px 37.5px;
+}
+
+.veggies-forever a{
+    border: none;
+    background-color: #E6F9F0;
+    text-decoration: none;
+    color:#06C167;
+    margin-left: 37.5px;
+    padding: 7px 14px 7px 9px;
+}
+
+.variety-img2 {
+    background-image: url(./imgages/varieties-food-2.png);
+    max-width: 292.5px;
+    height: 292.5px;
+}
+
+
+.variety-img3 {
+    background-image: url(./imgages/varieties-food-3.png);
+    max-width: 292.5px;
+    height: 292.5px;
+}
+
+.variety-img4 {
+    background-image: url(./imgages/varieties-food-4.png);
+    max-width: 292.5px;
+    height: 292.5px;
+}
+
+/* our product */
+
+.all-carts {
+    margin: 192px 0 96.5px 38px;
+    /* display: grid; */
+}
+
+.product-title h6 {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+.product-title h2 {
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 73px;
+    margin: 0;
+    padding: 0;
+}
+
+.product-cart {
+    margin-left: 12px;
+}
+
+.cart1 {
+    border: 1px solid #06C167;
+    max-width: 270.7px;
+}
+
+.cart1:hover, .cart:hover {
+    background-color: rgb(247, 200, 192);
+    transition: all;
+    transition-duration: 0.5s;
+}
+
+.cart {
+    border: 1px solid #E0E0E0;
+    max-width: 270.7px;
+    margin-left: 30px;
+}
+
+.cart-img img {
+    padding: 25px 40px 0 40px;
+}
+
+.five-stars {
+    padding: 5px 64px 0 64px
+}
+
+.five-stars i {
+    color:#06C167
+}
+
+.product-details h4{
+    padding: 21px 52px 0 58px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.product-details a {
+    margin: 29px 46px 30px 47px;
+    border: 1px solid #06C167;
+    border-radius: 0;
+    color: #06C167;
+}
+
+.product-price {
+    padding: 25px 92px 0 53px;
+    gap: 8px;
+}
+
+.product-price h5 {
+    color:#06C167;
+}
+
+/* veggie foods part */
+
+.veggie-food {
+    margin: 193px 86px 96.5px 38px;
+    background-image: url(./imgages/veggie-foods-bg.png);
+    max-width: 1170px;
+    height: 459px;
+}
+
+.veggie-details {
+    padding-top: 110px;
+}
+
+.veggie-details h2 {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 73px;
+    text-align: center;
+    margin: 0 197px 37px 174px;
+}
+
+.veggie-details a {
+    margin: 293px 480px 87px 480px;
+    padding: 13px 15px 12px 16px;
+    text-decoration: none;
+}
+
+/* Footer part */
+
+.footer-widget {
+    margin: 25px 65px 20px 38px;
+}
+
+.footer-title h4 {
+    color:#06C167;
+    margin-bottom: 41px;
+}
+
+.footer-title {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    margin-bottom: 51.5px;
+}
+
+.footer-icon i:nth-child(2) {
+    padding: 0 25px 0 25px;
+}
+
+.footer-about ul {
+    list-style: none;
+    margin-left: -32px;
+    margin-top: 58px;
+}
+
+.footer-about ul li, .company ul li {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+}
+.company ul {
+    list-style: none;
+    margin-left: -32px;
+    margin-top: 58px;
+}
+
+.get-touch p {
+    margin-top: 58px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+.get-touch input {
+    width: 205px;
+    height: 50px;
+    border: none;
+    background-color: #F0F1EC;
+}
+
+.get-touch a {
+    text-decoration: none;
+    padding: 15.8px;
+    margin-left: 12px;
+    border-radius: 0;
+}
+
+.copyright {
+    padding: 90px 610px 0 490px;
+}
+
+.copyright p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    /* text-align: center; */
+}
+/* button */
+
+.main-btn {
+    background: #06C167;
+    border-radius: 0;
+    color: #fff;
+    font-size: 16px;;
+    padding: 10px;
+}
+/* 
+.main-btn:hover {
+    color: #fff;
+} */
+
